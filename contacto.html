@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">	
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+		<meta name="keywords" content="muebleria, lanus, muebles, fabricantes, contacto">
+		<meta name="description" content="Envianos tu consulta, pronto te responderemos">	
+		<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+		<title>Lanús Confort</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>	
+		<header>	
+			<nav class="navbar navbar-dark bg-dark">
+				<img class="logo" src="img/logo1.png">
+				<a class="navbar-brand" href="index.html">Inicio</a>
+				<a class="navbar-brand" href="productos.html">Productos</a>
+				<a class="navbar-brand" href="contacto.html">Contacto</a> 	
+			</nav>
+		</header>
+		 <div id="container-fluid">
+	       <h1>Formulario de contacto</h1>
+	          <form>
+	            <label>Nombre:</label>
+	            <input type="text" placeholder="Tu nombre" required>
+	            <label>Apellido:</label>
+	            <input type="text" placeholder="Tu apellido">
+	            <label>Sexo:</label>
+	            <div id="genero">
+	                <div class="genero">
+	                  <input type="radio" name="genero" checked="checked" id="masculino">
+	                  <label for="masculino">Masculino</labelp>
+	                </div>
+	                <div class="genero">
+	                  <input type="radio" name="genero" checked="checked" id="femenino">
+	                  <label for="femenino">Femenino</label>
+	                </div>    
+	            </div>
+	            <label>Teléfono celular:</label>
+	            <input type="text" placeholder="ej: 31512345" required>
+	            <label>Correo electrónico:</label>
+	            <input type="text" placeholder="ej: micorreo@correo.com" required>
+	            <label>Mensaje:</label>
+	            <textarea id="mensaje" placeholder="Tu mensaje aquí"></textarea>      
+	            <p>Deseas que te contactemos:</p>
+	            <select id="contacto" name="contacto">
+	              <option value="medios">Whatsapp</option>
+	              <option value="medios">Llamada</option>
+	              <option value="medios">Correo electrónico</option>
+	              <option value="medios">Visita personal</option>
+	            </select>
+	            <center>  
+	              <input type="submit" value="Enviar" id="enviar">
+	             </center>
+	            </form>
+	        </div>
+			<footer>
+			<div class="all-footer">
+				<div class="container-body">
+					<div class="column1">
+						<h1>Informacion de la empresa.</h1>
+						<p>Lanús Confort es un emprendimiento familiar que se dedica a la venta minorista de muebles de todo tipo.</p>			
+					</div>
+					<div class="column2">
+						<h1>Redes sociales.</h1>
+						<div class="row">
+							<a href="https://www.facebook.com/confort.lanus" class="fab fa-facebook-f fa-2x"> <p class="redes">Seguinos en Facebook.</p></a>
+						</div>
+						<div class="row">
+							<a href="https://www.instagram.com/lanusconfort/?hl=es-la" class="fab fa-instagram fa-2x"><p class="redes">Seguinos en Instagram.</p></a>
+						</div>
+					</div>
+					<div class="column3">
+						<h1>Información de contacto.</h1>
+						<div class="row2">
+						<i class="fas fa-mobile-alt fa-2x"> <p class="contacto"> +54 9 11-6556-1665 </p></i>
+						</div>
+						<div class="row2">
+						<i class="fas fa-map-marker-alt"> <p class="contacto1"> Maximo paz 1071 1824 Lanús, Provincia de Buenos Aires, Argentina</p> </i>	
+						</div>		
+				</div>			
+			</div>
+			<div class="copyright">Propiedad de LANUS CONFORT Copyright © 2020 todos los derechos reservados.</div>	
+		</footer>	
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="bootstrap.js"></script>
+	</body>
+</html>
